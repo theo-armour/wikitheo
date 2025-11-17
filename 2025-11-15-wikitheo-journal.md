@@ -1,10 +1,12 @@
 # WikiTheo Journal
 
+
+
 ## 2025-11-15 Prompt 02
 
 # Prompt: Personal Knowledge Base Category System
 
-Create a comprehensive personal knowledge base category system based on Wikipedia's 13 main categories for organizing bookmarks and personal files. The system will be implemented as a hierarchical markdown structure suitable for GitHub Pages.
+Create a comprehensive personal knowledge base category system based on Wikipedia's 13 main categories for organizing bookmarks and personal files. The system will be implemented as a hierarchical GitHub Flavored Markdown structure suitable for GitHub Pages.
 
 ## Structure Requirements
 
@@ -16,19 +18,16 @@ Create a comprehensive personal knowledge base category system based on Wikipedi
 * All formatting must be GitHub Flavored Markdown compatible
 * No horizontal lines (---) anywhere in the document
 * Use asterisks (*) for all bullet points, not hyphens (-)
-* Blank line after all headers.
+* Add one blank line after every header.
 
 ## Content Requirements
 
 1. **Title**: "# Personal Knowledge Base Categories"
 
-2. **Introduction**: Brief paragraph explaining the system (2-3 sentences)
-
-3. **Table of Contents**: Numbered list linking to all 13 main categories
-
-4. **For Each Main Category**:
+2. **For Each Main Category**:
    * Header 2 with category name
-   * **Wikipedia:** link to the corresponding Wikipedia category page (format: https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories#[anchor])
+   * **Wikipedia:** link to the corresponding Wikipedia category page (format: https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories#[Category_Name])
+   * link to the corresponding Wikipedia all page type page page (format: https://en.wikipedia.org/wiki/Wikipedia:Contents/[Category_Name]
    * **Description**: One sentence describing what belongs in this category
    * Header 3 subcategories in alphabetical order
    * Asterisk (*) bulleted sub-subcategories in alphabetical order under relevant subcategories
@@ -59,6 +58,7 @@ Base the structure on: https://en.wikipedia.org/wiki/Wikipedia:Contents/Categori
 * Use clear, professional language
 * Focus on practical categorization for personal use
 * Ensure alphabetical ordering is strict for subcategories and sub-subcategories
+* No table of contents
 * No implementation guides or how-to sections
 * No examples of specific bookmarks or tools
 * No tagging conventions or organizational tips
@@ -78,14 +78,6 @@ Deliver a single, clean markdown file with:
 
 ```markdown
 # Personal Knowledge Base Categories
-
-[Introduction paragraph]
-
-## Table of Contents
-
-1. [General Reference](#general-reference)
-2. [Culture and the Arts](#culture-and-the-arts)
-...
 
 ## General Reference
 
@@ -107,16 +99,10 @@ Deliver a single, clean markdown file with:
 * Personal knowledge management systems
 ```
 
-## Constraints
 
-* Stick closely to Wikipedia's hierarchical structure
-* Keep maximum depth at 3 levels
-* No horizontal dividers
-* Use asterisks for all bullets
-* Alphabetize all subcategories and sub-subcategories
-* Include Wikipedia link for each main category
-* One-sentence descriptions only
-* No implementation details or usage guidance
+
+
+
 
 ## 2025-11-15 01
 
@@ -158,6 +144,7 @@ Create a complete personal knowledge base category system based on Wikipedia's c
 ## Specific Requirements
 
 ### Structure Requirements
+
 * Follow Wikipedia's 13 main categories exactly: Reference, Culture, Geography, Health, History, Human activities, Mathematics, Nature, People, Philosophy, Religion, Society, Technology
 * Use Header 2 (##) for the 13 main categories
 * Use Header 3 (###) for subcategories
