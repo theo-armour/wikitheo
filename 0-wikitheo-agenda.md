@@ -1,5 +1,7 @@
 # WikiTheo Agenda
 
-## Prompt Help
+## Agenda
 
-https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec
+* Compare theo-pkm with raindrop.html with ta.pages
+* Identical or closely aligned folder structure.
+
