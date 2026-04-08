@@ -12,5 +12,5 @@
 * Identical or closely aligned folder structure.
 
 In progress
-* export wikipedia links from bookmarks fie
-* inport to raindrop.io
+* export wikipedia links from bookmarks file
+* import to raindrop.io
